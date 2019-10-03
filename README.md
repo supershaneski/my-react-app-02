@@ -1,3 +1,13 @@
+# File Reader
+
+## Description
+Read file using XMLHttpRequest.
+File must be located within the local folder.
+
+
+
+## Note
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import FileReader from './filereader';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Read file (data.txt)</h2>
+      <h4>Display as raw text :</h4>
+      <p>
+        <FileReader file="data.txt" />
+      </p>
+      <h4>Display in HTML format :</h4>
+      <FileReader file="data.txt" displayType="1" />
     </div>
   );
 }
